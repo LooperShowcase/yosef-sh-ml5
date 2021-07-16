@@ -17,10 +17,10 @@ function preload() {
 function setup() {
   createCanvas(1920, 1080);
   lolo = new Player();
-  wordClassifier.classify(hearword);
+  wordClassifier.classify(heardWord);
 }
 
-function hearWord(error, results) {
+function heardWord(error, results) {
   if (results[0].label == "up") {
   }
 }
