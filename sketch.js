@@ -28,6 +28,7 @@ function heardWord(error, results) {
 function keyPressed() {
   if (key == " ") {
     lolo.jump();
+    console.log("up");
   }
 }
 
