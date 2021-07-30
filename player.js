@@ -31,8 +31,8 @@ class Player {
       this.size-50,
       curObs.x,
       curObs.y,
-      curObs.size-50,
-      curObs.size-50
+      curObs.size-100,
+      curObs.size-100
     );
     return isCol;
   }
