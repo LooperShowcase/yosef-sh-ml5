@@ -15,7 +15,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1920, 1080);
+  createCanvas(800, 600);
   lolo = new Player();
   wordClassifier.classify(heardWord);
 }
