@@ -27,8 +27,8 @@ class Player {
     let isCol = collideRectRect(
       this.x,
       this.y,
-      this.size-50,
-      this.size-50,
+      this.size-200,
+      this.size-200,
       curObs.x,
       curObs.y,
       curObs.size-100,
