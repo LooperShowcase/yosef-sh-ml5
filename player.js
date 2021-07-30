@@ -27,12 +27,12 @@ class Player {
     let isCol = collideRectRect(
       this.x,
       this.y,
-      this.size,
-      this.size,
+      this.size-30,
+      this.size-30,
       curObs.x,
       curObs.y,
-      curObs.size,
-      curObs.size
+      curObs.size-20,
+      curObs.size-20
     );
     return isCol;
   }
